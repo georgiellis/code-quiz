@@ -1,4 +1,4 @@
-var highScoreList = document.querySelector("#highScores");
+var highScoreList = document.querySelector("#highscores");
 var backButton = document.querySelector("#go-back");
 var clearScores = document.querySelector("#clear-highscores");
 
@@ -47,7 +47,7 @@ function renderScores() {
 
 clearScores.addEventListener("click", function () {
     clearAll();
-    window.location.href = "highScores.html";
+    window.location.href = "highscores.html";
 })
 backButton.addEventListener("click", function () {
     window.location.href = "index.html";
